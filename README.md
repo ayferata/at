@@ -31,7 +31,7 @@ public class Main {
                         System.out.print("Para miktarı : ");
                         int price = input.nextInt();
                         if (price > balance) {
-                            System.out.println("Bakiye yetersiz.");
+                            System.out.println("Bakiye yetersiz  ");
                         } else {
                             balance -= price;
                         }
@@ -39,13 +39,13 @@ public class Main {
                         System.out.println("Bakiyeniz : " + balance);
                     }
                 } while (select != 4);
-                System.out.println("Tekrar görüşmek üzere.");
+                System.out.println("Tekrar görüşmek üzere. ");
                 break;
             } else {
                 right--;
-                System.out.println("Hatalı kullanıcı adı veya şifre. Tekrar deneyiniz.");
+                System.out.println("Hatalı kullanıcı adı veya şifre. Tekrar deneyiniz. ");
                 if (right == 0) {
-                    System.out.println("Hesabınız bloke olmuştur lütfen banka ile iletişime geçiniz.");
+                    System.out.println("Hesabınız bloke olmuştur lütfen banka ile iletişime geçiniz. ");
                 } else {
                     System.out.println("Kalan Hakkınız : " + right);
                 }
